@@ -1,7 +1,7 @@
-div{
-  background-color: gray;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 500px;
+.App{
+    background-color: rgb(238, 69, 64);
+    height: 100vh;
+
+    background: rgb(133,5,175);
+    background: linear-gradient(90deg, rgba(133,5,175,1) 30%, rgba(4,179,105,1) 51%);
 }

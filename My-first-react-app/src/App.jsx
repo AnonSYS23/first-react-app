@@ -1,12 +1,14 @@
-// eslint-disable-next-line no-unused-vars
-import React from "react";
-import "./App.css"
-import Present from "./Components/Present"
+/* eslint-disable no-unused-vars */
+import React from 'react'
+import Cards from './Components/Cards'
+import './App.css'
 
-export default function App() {
-  return(
-  <div>
-    <Present />
-  </div>
-  );
+function App() {
+  return (
+    <div className='App'>
+      <Cards />
+    </div>
+  )
 }
+
+export default App
